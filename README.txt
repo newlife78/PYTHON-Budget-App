@@ -7,7 +7,7 @@ The class will have an instance variable called ledger that is a list.
 The class will also contain the following methods:
     1. A deposit method that accepts an amount and description.
        If no description is given, it will default to an empty string.
-       The method should append an object to the ledger list in the form of:
+       The method will append an object to the ledger list in the form of:
        {"amount": amount, "description": description}
 
     2. A withdraw method that is similar to the deposit method, but the amount passed in will be stored
